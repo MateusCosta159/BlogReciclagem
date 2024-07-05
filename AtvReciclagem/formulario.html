@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reciclagem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="topo">
+        <h1>Informações sobre o artista Eminem</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="">Processo de Reciclagem</a></li>
+            <li><a href="#">Sobre a Reciclagem</a></li>
+            <li><a href="#">Impactos Ambientais</a></li>
+            <li><a href="formulario.html">Formulário de Contato</a></li>
+            <li><a href="">FAQ (Perguntas Frequentes)</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+
+        <h2>Formulário para entrar em Contato com Artista</h2>
+        <section class="formulario">
+            <form method="post"">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+        <label>Nome:</label>
+        <input type=" text" id="nome" name="nome" required>
+                <br>
+                <br>
+                <label>Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <br>
+                <label>Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+                <br>
+                <br>
+                <label>Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                <br>
+                <br>
+                <label>Idade:</label>
+                <input type="number" id="idade" name="idade" required>
+                <br>
+                <br>
+                <label>Data de Aniversário:</label>
+                <input type="date" id="aniversario" name="aniversario"><br><br>
+
+                </fieldset>
+                <section>
+                    <fieldset>
+
+
+                        <legend>Preferências:</legend>
+                        <label>Gênero Musical:</label>
+                        <select name="genero" id="genero">
+                            <option value="rock">Rock</option>
+                            <option value="pop">Pop</option>
+                            <option value="hip-hop">Hip Hop</option>
+                            <option value="eletronica">Eletrônica</option>
+                        </select>
+                        <br>
+                        <br>
+
+                        <label>Instrumentos Musicais:</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="instrumento" id="violao" value="violao">
+                        <label for="violao">Violão</label><br>
+                        <input type="checkbox" name="instrumento" id="guitarra" value="guitarra">
+                        <label for="guitarra">Guitarra</label><br>
+                        <input type="checkbox" name="instrumento" id="baixo" value="baixo">
+                        <label for="baixo">Baixo</label><br>
+                        <input type="checkbox" name="instrumento" id="bateria" value="bateria">
+                        <label for="bateria">Bateria</label><br><br>
+                    </fieldset>
+                </section>
+                <section>
+                    <fieldset>
+                        <legend>Biografia:</legend>
+                        <textarea name="biografia" id="biografia" cols="80" rows="10"></textarea>
+                    </fieldset>
+                </section>
+                
+                <br>
+                <br>
+                <section class="button-section">
+
+                    <a href="newsletter.html" class="button">
+                        Enviar
+                    </a>
+                </section>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="#topo">Voltar ao topo</a>
+        <p>&copy; 2024 Blog Reciclagem</p>
+    </footer>
+</body>
+
+</html>
